@@ -234,6 +234,7 @@ main {
 
 .latest-articles article img {
   width: 100%;
+  height: 150px;
 }
 
 .latest-articles .content {
@@ -255,6 +256,14 @@ main {
 .latest-articles .content .bottom,
 .latest-articles .content .bottom a {
   color: #a0a0a0;
+}
+
+.latest-news h4:hover {
+  color: #ff4422;
+}
+
+.latest-news .latest-articles .bottom a:hover {
+  color: #555;
 }
 
 @media only screen and (max-width: 767px) {
@@ -343,6 +352,11 @@ main {
   .latest-articles .content {
     padding-top: 0;
   }
+
+  .latest-articles article img {
+    width: 200px;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -389,5 +403,9 @@ main {
 
   .latest-articles article {
     max-width: calc(100% / 3 - 10px);
+  }
+
+  .latest-articles article:last-child {
+    margin-left: -600px;
   }
 }
