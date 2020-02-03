@@ -235,9 +235,8 @@ main {
 
   .top-articles {
     /* change the height to auto after filling the elements with childs */
-    height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas: "main" "second" "third";
     grid-gap: 10px;
     margin: 0 10px;
@@ -246,6 +245,23 @@ main {
   .announcements {
     font-size: 10px;
     justify-content: center;
+  }
+
+  .top-main {
+    visibility: hidden;
+    height: 0%;
+  }
+
+  .top-main img {
+    width: 0;
+  }
+  
+  .main-article {
+    background-image: linear-gradient(180deg, #00000000, #000000), url(../images/img1.png);
+  }
+
+  .bottom-main h2{
+    font-size: 20px;
   }
 }
 
