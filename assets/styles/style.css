@@ -27,6 +27,11 @@ header nav {
   background-image: linear-gradient(141deg, #910757, #db2a2a);
   height: auto;
   position: relative;
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
 }
 
 .logo img {
@@ -34,10 +39,6 @@ header nav {
   position: absolute;
   top: calc(50% - 10px);
   left: calc(50% - 35px);
-}
-
-.logo:hover {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
 }
 
 .bars-icon {
@@ -58,6 +59,11 @@ header nav {
 .top-navbar li {
   display: inline-block;
   padding: 7px 5px;
+  cursor: pointer;
+}
+
+.top-navbar li:hover {
+  color: #fff;
 }
 
 .white-navbar {
@@ -80,6 +86,16 @@ header nav {
   display: inline-block;
   padding: 15px 0;
   padding-right: 15px;
+}
+
+.white-navbar li,
+.white-navbar .fas {
+  cursor: pointer;
+}
+
+.white-navbar li:hover,
+.white-navbar .fas:hover {
+  color: #000;
 }
 
 .white-navbar div {
@@ -108,13 +124,11 @@ header nav {
 }
 
 .top-articles {
-  height: 60vh;
+  height: 75vh;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
-    "main second"
-    "main third";
+  grid-template-areas: "main second" "main third";
   grid-gap: 10px;
 }
 
@@ -173,20 +187,22 @@ main {
   }
 
   main {
-    padding-top: 80px;
+    padding-top: 70px;
   }
 
   .top-articles {
     /* change the height to auto after filling the elements with childs */
     height: 100vh;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    grid-template-areas: 
-      "main"
-      "second"
-      "third";
+    grid-template-areas: "main" "second" "third";
     grid-gap: 10px;
+    margin: 0 10px;
+  }
+
+  .announcements {
+    font-size: 10px;
+    justify-content: center;
   }
 }
 
@@ -202,9 +218,14 @@ main {
   .logo {
     display: block;
   }
+
+  .announcements {
+    padding-left: 85px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
+  /* you need to remove this later */
   body {
     background-color: rgb(8, 207, 98);
   }
