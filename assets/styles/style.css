@@ -20,6 +20,10 @@ header {
   z-index: 100;
 }
 
+.hide-me {
+  display: none;
+}
+
 .nav-container {
   display: flex;
 }
@@ -103,6 +107,10 @@ header nav {
   cursor: pointer;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .white-navbar li:hover,
 .white-navbar .fas:hover {
   color: #000;
@@ -144,7 +152,7 @@ header nav {
 
 .top-articles .main-article {
   grid-area: main;
-  background-image: linear-gradient(141deg, #da5858,rgba(255, 221, 51, 0)), linear-gradient(180deg, #00000000, #000000), url(../images/img1.png);
+  background-image: linear-gradient(141deg, rgb(221, 85, 85), rgba(255, 221, 51, 0)), linear-gradient(180deg, #0000, #000), url(../images/img1.png);
 }
 
 .top-articles article {
@@ -676,6 +684,7 @@ footer {
 }
 
 .bottom-footer img {
+  cursor: pointer;
   height: 10px;
 }
 
@@ -906,5 +915,4 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
-
 }
