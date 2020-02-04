@@ -36,9 +36,9 @@ To make this repository working in your local machine you need only a browser.
 
 👤 **Zakariae El Mejdki**
 
-- Github: [@githubhandle](https://github.com/elmejdki)
-- Twitter: [@twitterhandle](https://twitter.com/0ca7848f87ab470)
-- Linkedin: [linkedin](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@ZakariaeElMEjdki](https://twitter.com/0ca7848f87ab470)
+- Linkedin: [Zakariae El Mejdki](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
 
 👤 **Brenda Yucra**
 
