@@ -402,7 +402,6 @@ main {
 }
 
 .news-img {
-  background-image: linear-gradient(180deg, #0000, #000), url(../images/news1.jpg);
   width: auto;
   height: 280px;
   background-repeat: no-repeat;
@@ -414,6 +413,14 @@ main {
   background-size: cover;
   color: white;
   padding: 10px;
+}
+
+.apps-image {
+  background-image: linear-gradient(180deg, #0000, #000), url(../images/news1.jpg);
+}
+
+.gears-image {
+  background-image: linear-gradient(180deg, #0000, #000), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2FSnag_16e7896-796x419.png&signature=b1ba4b2665d4432311a90867ab0a8786");
 }
 
 .news-img :last-child {
@@ -464,6 +471,10 @@ main {
 
 .img1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Apple-Maps.jpg");
+}
+
+.img2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/BlackBerry-Key2-4-of-8.jpg");
 }
 
 .latest-text {
