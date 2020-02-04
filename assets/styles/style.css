@@ -424,7 +424,7 @@ main {
 }
 
 .tech-image {
-  background-image: linear-gradient(180deg, #0000, #000),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/hummer-ford-porsche-electric-vehicle-audi-etron-mustang-taycan-hummer-gmc-796x448.jpg");
+  background-image: linear-gradient(180deg, #0000, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/hummer-ford-porsche-electric-vehicle-audi-etron-mustang-taycan-hummer-gmc-796x448.jpg");
 }
 
 .img3 {
@@ -440,8 +440,7 @@ main {
 }
 
 .podium-image {
-  background-image: linear-gradient(180deg, #0000, #000),
-  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fbuzzy-bees.jpg&signature=805386b84eb065cf57eee1a9c443f4e2");
+  background-image: linear-gradient(180deg, #0000, #000), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fbuzzy-bees.jpg&signature=805386b84eb065cf57eee1a9c443f4e2");
 }
 
 .img5 {
@@ -449,8 +448,7 @@ main {
 }
 
 .insights-image {
-  background-image: linear-gradient(180deg, #0000, #000),
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
+  background-image: linear-gradient(180deg, #0000, #000), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
 }
 
 .img6 {
@@ -458,8 +456,7 @@ main {
 }
 
 .launch-image {
-  background-image: linear-gradient(180deg, #0000, #000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg");
+  background-image: linear-gradient(180deg, #0000, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg");
 }
 
 .img7 {
@@ -467,8 +464,7 @@ main {
 }
 
 .distract-image {
-  background-image: linear-gradient(180deg, #0000, #000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Flashpoint-796x417.jpg");
+  background-image: linear-gradient(180deg, #0000, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Flashpoint-796x417.jpg");
 }
 
 .img8 {
@@ -555,6 +551,71 @@ main {
 
 .news-categories article li a:hover {
   color: black;
+}
+
+.latest-deals {
+  padding-top: 30px;
+}
+
+.latest-deals > .heading {
+  display: flex;
+  justify-content: space-between;
+  color: #f42;
+}
+
+.latest-deals .heading > *:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.latest-deals .heading .fas {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.latest-deals .content .heading h4 {
+  font-size: 18px;
+}
+
+.latest-deals .content .heading h4:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.latest-deals .content .heading .bottom {
+  font-size: 18px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.latest-deals article .picture {
+  position: relative;
+}
+
+.latest-deals article .discount {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+}
+
+article .discount span {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 14px;
+  transform: rotate(45deg);
+  padding-top: 20px;
+  padding-left: 18px;
+  width: 100px;
 }
 
 @media only screen and (max-width: 767px) {
