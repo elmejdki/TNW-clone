@@ -17,6 +17,7 @@ header {
   flex-direction: column;
   display: flex;
   width: 100%;
+  z-index: 100;
 }
 
 .nav-container {
