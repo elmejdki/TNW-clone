@@ -754,6 +754,10 @@ article .discount span {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, auto);
   }
+
+  .discount {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
