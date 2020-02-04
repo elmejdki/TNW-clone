@@ -618,6 +618,71 @@ article .discount span {
   width: 100px;
 }
 
+footer {
+  color: #555;
+  background-color: black;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.top-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  background-color: #131313;
+}
+
+.round li {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 17px;
+  color: white;
+}
+
+.round li:hover {
+  background-color: rgba(37, 37, 37, 0);
+  border: 1px solid #333;
+}
+
+.top-footer ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.top-footer ul:last-child {
+  padding-top: 20px;
+}
+
+.top-footer ul:last-child li:hover {
+  color: white;
+}
+
+.top-footer li {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.bottom-footer {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.bottom-footer img {
+  height: 10px;
+}
+
+.red-heart {
+  color: red;
+}
+
 @media only screen and (max-width: 767px) {
   .top-navbar {
     display: none;
