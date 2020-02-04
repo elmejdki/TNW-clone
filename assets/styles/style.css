@@ -423,6 +423,58 @@ main {
   background-image: linear-gradient(180deg, #0000, #000), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2FSnag_16e7896-796x419.png&signature=b1ba4b2665d4432311a90867ab0a8786");
 }
 
+.tech-image {
+  background-image: linear-gradient(180deg, #0000, #000),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/hummer-ford-porsche-electric-vehicle-audi-etron-mustang-taycan-hummer-gmc-796x448.jpg");
+}
+
+.img3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Copy-of-Copy-of-Copy-of-Copy-of-...-2.png");
+}
+
+.creative-image {
+  background-image: linear-gradient(180deg, #0000, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-796x448.png");
+}
+
+.img4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/instagram-photoshop-hide-misinformation.jpg");
+}
+
+.podium-image {
+  background-image: linear-gradient(180deg, #0000, #000),
+  url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fbuzzy-bees.jpg&signature=805386b84eb065cf57eee1a9c443f4e2");
+}
+
+.img5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design48.png");
+}
+
+.insights-image {
+  background-image: linear-gradient(180deg, #0000, #000),
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088");
+}
+
+.img6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Netherlands-subsidy-electric-vehicles-car-buying-grant-government-buy-tesla.png");
+}
+
+.launch-image {
+  background-image: linear-gradient(180deg, #0000, #000),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg");
+}
+
+.img7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg");
+}
+
+.distract-image {
+  background-image: linear-gradient(180deg, #0000, #000),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Flashpoint-796x417.jpg");
+}
+
+.img8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Hamilton-hed.jpg");
+}
+
 .news-img :last-child {
   font-size: 12px;
   color: hsla(0, 0%, 100%, 0.6);
@@ -636,6 +688,11 @@ main {
   .latest-funding .funding-section section:last-child {
     display: none;
   }
+
+  .news-categories {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -714,4 +771,10 @@ main {
   .no-display {
     display: block;
   }
+
+  .news-categories {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
 }
