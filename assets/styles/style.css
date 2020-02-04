@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.no-display {
+  display: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -213,6 +217,12 @@ main {
   color: #f42;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  width: 200px;
+}
+
+.latest-news h2:hover {
+  color: black;
 }
 
 .latest-news h2 .fas {
@@ -260,7 +270,7 @@ main {
 }
 
 .latest-news h4:hover {
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-news .latest-articles .bottom a:hover {
@@ -278,13 +288,11 @@ main {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-}
-
-.funding-title {
   color: #f42;
 }
 
-.funding-title h2:hover, .funding-title li:hover {
+.funding-title h2:hover,
+.funding-title li:hover {
   color: black;
   cursor: pointer;
 }
@@ -322,7 +330,7 @@ main {
 }
 
 .funding-name {
-  background-color: #ff4422;
+  background-color: #f42;
   color: white;
   font-size: 20px;
   padding: 10px 0 10px 70px;
@@ -338,7 +346,7 @@ main {
   color: #555;
 }
 
-.funding-section section{
+.funding-section section {
   background-color: #fffaf8;
   position: relative;
 }
@@ -355,8 +363,18 @@ main {
 }
 
 .funding-section-details {
+  font-size: 14px;
   padding: 0 10px;
   color: #555;
+}
+
+.funding-section-details .funding-icons p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.funding-section-details .fas {
+  color: black;
 }
 
 .funding-p {
@@ -400,7 +418,6 @@ main {
   }
 
   .top-articles {
-    /* change the height to auto after filling the elements with childs */
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px 300px;
     grid-template-areas: "main" "second" "third";
@@ -436,7 +453,7 @@ main {
   }
 
   .latest-articles article .picture {
-    width: 200px;
+    width: 100px;
   }
 
   .latest-articles .content > * {
@@ -452,7 +469,7 @@ main {
   }
 
   .latest-articles article img {
-    width: 200px;
+    width: 100px;
     height: auto;
   }
 
@@ -488,7 +505,7 @@ main {
     grid-column-gap: 15px;
     margin-top: 25px;
   }
-  
+
   .funding-section section {
     padding-bottom: 15px;
   }
@@ -544,10 +561,6 @@ main {
     max-width: calc(100% / 3 - 10px);
   }
 
-  .latest-articles article:last-child {
-    margin-left: -600px;
-  }
-
   .funding-title {
     display: flex;
     flex-direction: column;
@@ -573,5 +586,9 @@ main {
 
   .latest-funding .funding-section section:last-child {
     display: none;
+  }
+
+  .no-display {
+    display: block;
   }
 }
