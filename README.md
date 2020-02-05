@@ -1,14 +1,14 @@
-# TubeClone
+# TNWClone
 
 > This is a clone of The Next Web news website, which me and my partner Brenda managed to clone using pure HTML and CSS, and we suggested to name it TNW-clone.
 
-### Desktop verison:
+### Desktop version:
 ![screenshot](./screenshot1.png)
 
-### Tablet verison:
+### Tablet version:
 ![screenshot](./screenshot3.png)
 
-### Mobile verison:
+### Mobile version:
 ![screenshot](./screenshot2.png)
 
 ## Built With
